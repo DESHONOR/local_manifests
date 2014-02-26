@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <manifest>
 	   
-	 <!-- Allow to compile with Linaro. -->  
-	 <remove-project name="CyanogenMod/android_build" />
-     <project path="build" name="Team-Hydra/android_build" remote="github" revision="cm-11.0" >
-      <copyfile src="core/root.mk" dest="Makefile" />
-     </project>
-
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
-     <project path="vendor/huawei" name="CyanogenModu8800pro/android_proprietary_vendor_huawei" remote="github" revision="cm-11.0"/>
-     <project path="kernel/huawei/u8800pro" name="RittikBhowmik/Project-X5pro-Kernel-u8800pro" remote="github" revision="master"/>
+     <project path="vendor/huawei" name="DESHONOR/android_proprietary_vendor_huawei" remote="github" revision="master"/>
+     <project path="kernel/huawei/honor" name="DESHONOR/android_kernel_huawei_honor_1" remote="github" revision="master"/>
      <project path="device/huawei/msm7x30-common" name="CyanogenModu8800pro/android_device_huawei_msm7x30-common" remote="github" revision="cm-11.0"/>
      <project path="device/huawei/u8800pro" name="CyanogenModu8800pro/android_device_huawei_u8800pro" remote="github" revision="cm-11.0"/>
 
