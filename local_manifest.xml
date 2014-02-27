@@ -14,6 +14,8 @@
      <project name="Team-Hydra/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="kitkat-staging" />
      <project name="Team-Hydra/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="kitkat-staging" />
 
+     <!-- Build Enviroment -->
+     <project path="prebuilt" name=" CyanogenMod/android_prebuilt" remote="github" revision="stable/cm-11.0"/>
 
      <!-- Webkit -->
      <project path="external/webkit" name="DESHONOR/android_external_webkit" remote="github" revision="cm11.0"/>
